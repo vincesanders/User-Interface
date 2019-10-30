@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5 {
 #container {
 	width: 900px;
 	margin: 20px auto;
+	font-family: "Montserrat", "Avenir";
 }
 
 .inline-block {
@@ -77,31 +78,46 @@ h1, h2, h3, h4, h5 {
 
 #top-header {
 	width: 900px;
-}
-
-#nav {
-
-}
+	background: steelblue;
+	position: fixed;
+	top: 0;
+	width: 100:
+}git
 
 .logo {
 	width: 23%;
 	float: right;
+	margin-right: 10px;
 }
 
 ul {
 	width: 650px;
+	margin-left: 10px;
 }
 
 li {
 	display: inline-block;
 	width: 16%;
-	margin: 10px 0;
+
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 13px;
 }
 
 a {
 	text-decoration: none;
-	color: grey;
-	
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+li:hover {
+	background: white;
+}
+
+li:hover >a{
+	color: steelblue;
+	font-weight: bold;
 }
 
 #title {
@@ -126,13 +142,19 @@ a {
 .button {
 	display: inline-block;
 	width: 150px;
-	backgound-color: white;
+	background: white;
 	padding: 10px 20px;
 	border: 1px solid black;
+	cursor: pointer;
+}
+
+.button:hover {
+	background: steelblue;
+	color: white;
 }
 
 #content-row-1 .content-column {
-	width: 49.8%;
+	width: 49.7%;
 }
 
 #content-row-3 .content-column {
