@@ -50,6 +50,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
+	max-width: 100%;
 }
 
 html, body {
@@ -64,3 +65,126 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+#container {
+	width: 900px;
+	margin: 20px auto;
+	font-family: "Montserrat", "Avenir";
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+#top-header {
+	width: 900px;
+	background: steelblue;
+	position: fixed;
+	top: 0;
+	width: 100:
+}git
+
+.logo {
+	width: 23%;
+	float: right;
+	margin-right: 10px;
+}
+
+ul {
+	width: 650px;
+	margin-left: 10px;
+}
+
+li {
+	display: inline-block;
+	width: 16%;
+
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 13px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+li:hover {
+	background: white;
+}
+
+li:hover >a{
+	color: steelblue;
+	font-weight: bold;
+}
+
+#title {
+	height: 400px;
+	text-align: center;
+	margin: 60px 0;
+}
+
+#title-cta {
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	vertical-align:top;
+	width: 50%;
+}
+
+#title-header {
+	font-size: 72px;
+	text-align: center;
+}
+
+.button {
+	display: inline-block;
+	width: 150px;
+	background: white;
+	padding: 10px 20px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.button:hover {
+	background: steelblue;
+	color: white;
+}
+
+#content-row-1 .content-column {
+	width: 49.7%;
+}
+
+#content-row-3 .content-column {
+	width: 33%;
+}
+
+.content-column {
+	margin: 40px 0;
+	padding: 5px;
+}
+
+#content img {
+	width: 900px;
+	
+}
+
+#content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#contact {
+	margin: 40px 0;
+}
+
+address p:nth-child(3) {
+	margin: 20px 0;
+}
+
+footer {
+	margin: 50px 0;
+	text-align: center;
+}
