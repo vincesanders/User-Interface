@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5 {
 	position: fixed;
 	top: 0;
 	width: 100:
-}git
+}
 
 .logo {
 	width: 23%;
@@ -130,7 +130,7 @@ li:hover >a{
 	text-align: center;
 	padding-top: 60px;
 	padding-bottom: 60px;
-	vertical-align:top;
+	vertical-align: top;
 	width: 50%;
 }
 
